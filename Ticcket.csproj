@@ -45,12 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agenda.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Agenda.Designer.cs">
-      <DependentUpon>Agenda.cs</DependentUpon>
-    </Compile>
     <Compile Include="attendee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +56,12 @@
     </Compile>
     <Compile Include="ChangePass.Designer.cs">
       <DependentUpon>ChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create Event.Designer.cs">
+      <DependentUpon>Create Event.cs</DependentUpon>
     </Compile>
     <Compile Include="Help.cs">
       <SubType>Form</SubType>
@@ -122,14 +122,14 @@
     <Compile Include="Start.Designer.cs">
       <DependentUpon>Start.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Agenda.resx">
-      <DependentUpon>Agenda.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="attendee.resx">
       <DependentUpon>attendee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Event.resx">
+      <DependentUpon>Create Event.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Help.resx">
       <DependentUpon>Help.cs</DependentUpon>

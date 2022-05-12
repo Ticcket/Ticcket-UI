@@ -13,8 +13,8 @@ C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.organiser_event.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.organiser_Home.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.organiser_search.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.sign_up.resources
-C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.Agenda.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.Help.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.PasswordChanging.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.ChangePass.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.csproj.AssemblyReference.cache
+C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.Create_Event.resources

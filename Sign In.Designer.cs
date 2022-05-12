@@ -100,6 +100,7 @@ namespace Ticcket
             this.label1.TabIndex = 127;
             this.label1.Text = "                                                                                 " +
     "                                 ";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label5
             // 
@@ -186,10 +187,9 @@ namespace Ticcket
             this.Txtpassword.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F);
             this.Txtpassword.ForeColor = System.Drawing.Color.Black;
             this.Txtpassword.Location = new System.Drawing.Point(160, 103);
-            this.Txtpassword.Multiline = true;
             this.Txtpassword.Name = "Txtpassword";
             this.Txtpassword.PasswordChar = '•';
-            this.Txtpassword.Size = new System.Drawing.Size(297, 26);
+            this.Txtpassword.Size = new System.Drawing.Size(297, 27);
             this.Txtpassword.TabIndex = 119;
             // 
             // button3
@@ -251,7 +251,7 @@ namespace Ticcket
             // label2
             // 
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label2.Location = new System.Drawing.Point(463, 135);
             this.label2.Name = "label2";

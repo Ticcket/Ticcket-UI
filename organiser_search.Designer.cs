@@ -31,9 +31,9 @@ namespace Ticcket
         {
             this.bTnDesign1 = new Ticcket.Resources.BTnDesign();
             this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
-            this.Search = new Ticcket.Resources.BTnDesign();
             this.textSearch = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bTnDesign2 = new Ticcket.Resources.BTnDesign();
             this.SuspendLayout();
             // 
             // bTnDesign1
@@ -70,23 +70,6 @@ namespace Ticcket
             this.bTnDesign4.TabIndex = 33;
             this.bTnDesign4.TextColor = System.Drawing.Color.White;
             this.bTnDesign4.UseVisualStyleBackColor = false;
-            this.bTnDesign4.Click += new System.EventHandler(this.bTnDesign4_Click);
-            // 
-            // Search
-            // 
-            this.Search.BackColor = System.Drawing.Color.White;
-            this.Search.BorderColor = System.Drawing.Color.DarkSlateBlue;
-            this.Search.BorderRadius = 40;
-            this.Search.BorderSize = 1;
-            this.Search.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
-            this.Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Search.ForeColor = System.Drawing.Color.White;
-            this.Search.Location = new System.Drawing.Point(79, 7);
-            this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(490, 51);
-            this.Search.TabIndex = 36;
-            this.Search.TextColor = System.Drawing.Color.White;
-            this.Search.UseVisualStyleBackColor = false;
             // 
             // textSearch
             // 
@@ -97,19 +80,38 @@ namespace Ticcket
             this.textSearch.Multiline = true;
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(435, 29);
-            this.textSearch.TabIndex = 37;
+            this.textSearch.TabIndex = 40;
+            this.textSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(86, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 29);
-            this.label3.TabIndex = 38;
-            this.label3.Text = "🔍 ";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(86, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 29);
+            this.label1.TabIndex = 41;
+            this.label1.Text = "🔍 ";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // bTnDesign2
+            // 
+            this.bTnDesign2.BackColor = System.Drawing.Color.White;
+            this.bTnDesign2.BorderColor = System.Drawing.Color.DarkSlateBlue;
+            this.bTnDesign2.BorderRadius = 40;
+            this.bTnDesign2.BorderSize = 1;
+            this.bTnDesign2.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
+            this.bTnDesign2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bTnDesign2.ForeColor = System.Drawing.Color.White;
+            this.bTnDesign2.Location = new System.Drawing.Point(79, 7);
+            this.bTnDesign2.Name = "bTnDesign2";
+            this.bTnDesign2.Size = new System.Drawing.Size(490, 49);
+            this.bTnDesign2.TabIndex = 39;
+            this.bTnDesign2.TextColor = System.Drawing.Color.White;
+            this.bTnDesign2.UseVisualStyleBackColor = false;
+            this.bTnDesign2.Click += new System.EventHandler(this.bTnDesign2_Click);
             // 
             // organiser_search
             // 
@@ -117,8 +119,8 @@ namespace Ticcket
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.textSearch);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.Search);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.bTnDesign2);
             this.Name = "organiser_search";
             this.Size = new System.Drawing.Size(616, 362);
             this.ResumeLayout(false);
@@ -129,8 +131,8 @@ namespace Ticcket
         #endregion
         private Resources.BTnDesign bTnDesign1;
         private Resources.BTnDesign bTnDesign4;
-        private Resources.BTnDesign Search;
         private System.Windows.Forms.TextBox textSearch;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private Resources.BTnDesign bTnDesign2;
     }
 }

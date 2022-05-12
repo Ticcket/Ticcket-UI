@@ -177,7 +177,7 @@ namespace Ticcket
             // Sidepanel
             // 
             this.Sidepanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.Sidepanel.Location = new System.Drawing.Point(3, 52);
+            this.Sidepanel.Location = new System.Drawing.Point(0, 52);
             this.Sidepanel.Name = "Sidepanel";
             this.Sidepanel.Size = new System.Drawing.Size(10, 50);
             this.Sidepanel.TabIndex = 2;
@@ -227,7 +227,7 @@ namespace Ticcket
             // 
             // organiser_event1
             // 
-            this.organiser_event1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.organiser_event1.BackColor = System.Drawing.Color.White;
             this.organiser_event1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.organiser_event1.Location = new System.Drawing.Point(139, 87);
             this.organiser_event1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
